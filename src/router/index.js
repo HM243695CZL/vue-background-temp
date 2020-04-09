@@ -99,7 +99,7 @@ export const asyncRoutes = [
             {
                 path: "table",
                 name: "Table",
-                component: () => import("@/views/table/index"),
+                component: () => import("@/views/example/table/index"),
                 meta: {
                     title: "Table",
                     icon: "table"
@@ -108,11 +108,30 @@ export const asyncRoutes = [
             {
                 path: "tree",
                 name: "Tree",
-                component: () => import("@/views/tree/index"),
+                component: () => import("@/views/example/tree/index"),
                 meta: {
                     title: "Tree",
                     icon: "tree"
                 }
+            },
+            {
+                path: "article",
+                name: "ArticleList",
+                component: () => import("@/views/example/article/list"),
+                meta: {
+                    title: "ArticleList",
+                    icon: "tree"
+                }
+            },
+            {
+                path: "article/edit/:id",
+                name: "Article_Edit",
+                component: () => import("@/views/example/article/edit"),
+                meta: {
+                    title: "Article_Edit",
+                    icon: "tree"
+                },
+                hidden: true
             }
         ]
     }

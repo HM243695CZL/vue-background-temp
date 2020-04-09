@@ -5,7 +5,8 @@ export default {
         Example: "Example",
         Table: "Table",
         Tree: "Tree",
-        Documentation: "Documentation"
+        Documentation: "Documentation",
+        ArticleList: "ArticleList"
     },
     navbar: {
         logOut: "Log Out",

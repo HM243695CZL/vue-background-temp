@@ -5,7 +5,8 @@ export default {
         Example: "综合实例",
         Table: "表格",
         Tree: "树结构",
-        Documentation: "文档"
+        Documentation: "文档",
+        ArticleList: "文章列表"
     },
     navbar: {
         logOut: "退出登录",
